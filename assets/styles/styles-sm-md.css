@@ -1,0 +1,52 @@
+/** For Tablets and small laptops **/
+@media screen and (max-width: 1140px) {  
+    h1 {
+        font-size: 2.7vw;
+    }
+
+    h2 {
+        font-size: 2.05vw;
+    }
+    
+    p {
+        line-height: 2.4vw;
+        font-size: 1.35vw;
+    }
+    
+    /** CONTAINER **/
+    
+    .container {
+        gap: 5vw;
+        border-radius: 7.5px;
+        margin: 5vw;
+    
+    }
+    
+    .content {
+        gap: 2.5vw;
+        margin: 0px 6vw;
+        max-width: 32vw;
+    }
+    
+    
+    /** STATS **/
+    
+    .stats {
+        margin-top: 3.2vw;
+    }
+    
+    .label-stats {
+        font-size: 1vw;
+        /*letter-spacing: 2px;*/
+    }
+    
+    
+    /** HEADER IMG **/  
+    .img-desktop {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .header-img div {
+        border-radius: 0 10px 10px 0;
+    }
+}
